@@ -50,22 +50,77 @@
 //*FIND
 //RETORNA o primeiro elemento que atende a condição
 
-let produtos = [
-    {
-        id: 1,
-        nome: "Teclado",
-        preco: 50
-        //produto 
-    },
-    {
-        id: 2,
-        nome: "Mouse",
-        preco: 30
-         //produto 
-    }
-]
+// let produtos = [
+//     {
+//         id: 1,
+//         nome: "Teclado",
+//         preco: 50
+//         //produto 
+//     },
+//     {
+//         id: 2,
+//         nome: "Mouse",
+//         preco: 30
+//          //produto 
+//     },
+//     {
+//         id: 3,
+//         nome: "Caderno",
+//         preco: 30
+//          //produto 
+//     }
+// ]
 
-let item = produtos.find(produto => produto.id === 2)
-console.log (item);
+// let item = produtos.find(produto => produto.id === 2)
+// console.log (item);
+// let itemFiltrado = produtos.filter(produto => produto.id === 2)
+// console.log ("Usando Filter:" , itemFiltrado);
+
+//diferença entre find e filter 
+//find -> retorna somente o primeiro elemento que ele encontra qua atenda a condição 
+//filter -> retorna todos os elementos que atendam a condição
+
+// //*SPLIT
+// //divide a string em partes transformando no array 
+
+// let frase = "JS é top";
+
+// //" " com espaço separa aas palavras com espaço
+// //sem espaço separa aas letras'
+// let palavras = frase.split(" ");
+
+// console.log (palavras);
+
+//*TRIM
+//trim remove espaços no inicio e final de uma string 
+
+// let nome = "   Paulo   ";
+// let nomeLimpo = nome.trim();
+
+// console.log(nome);
+// console.log(nomeLimpo);
+
+// //*INCLUDES
+// //verifica se existe um valor dentro de uma lista e retorna um booleano verdadeiro ou falso
+
+// let frutas = ["Maçã", "Banana"];
+
+// let frutasIncludes = frutas.includes ("Banana");
+// console.log (frutasIncludes)//true
 
 
+//toLowerCase -> transforma em minusculo
+//toUpperCase -> transforma em maiusculo
+
+// let nome = "KESSIA";
+// let CARGO = "instrutora";
+
+
+// console.log(nome.toLowerCase());
+// console.log(CARGO.toUpperCase());
+
+
+// //*FOREACH
+
+// let nomes = ["João", "Guilherme", "Maria"];
+// nomes.forEach(nome => console.log(`Seu nome é ${nome}`))
