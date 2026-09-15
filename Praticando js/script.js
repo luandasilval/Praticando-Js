@@ -287,13 +287,13 @@ count -> numero de elementos removidos (pode ser 0)
 
 //O que veremos nas proximas aulas
 //spoiler......
-let textoP = document.getElementById("texto");
+// let textoP = document.getElementById("texto");
 
-let saudacao = prompt("Digite a saudação: ")
+// let saudacao = prompt("Digite a saudação: ")
 
-if (saudacao == "bom dia") {
-    textoP.textContent = saudacao; //textContent insere o conteudo dentro da tag
-}
-else {
-    textoP.textContent = "Segundouuuu ;)";
-}
+// if (saudacao == "bom dia") {
+//     textoP.textContent = saudacao; //textContent insere o conteudo dentro da tag
+// }
+// else {
+//     textoP.textContent = "Segundouuuu ;)";
+// }
