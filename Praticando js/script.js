@@ -297,3 +297,4 @@ count -> numero de elementos removidos (pode ser 0)
 // else {
 //     textoP.textContent = "Segundouuuu ;)";
 // }
+// 
