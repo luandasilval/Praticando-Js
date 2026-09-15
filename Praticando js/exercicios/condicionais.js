@@ -67,7 +67,7 @@
 //     else if (idade >= 18) {
 //         console.log("Adulto");
 //         alert("Adulto");
-    
+
 // }
 
 //todo: Verificar se um número é par ou ímpar:
@@ -80,7 +80,5 @@
 // else{
 //     console.log("O numero é impar");
 // }
-
-
 
 
